@@ -1,0 +1,1048 @@
+
+body{
+    margin:0;
+    padding: 0;  
+    text-align: left; 
+}
+a{
+   text-decoration: none;
+   color: black; 
+}
+h1{
+    padding-left: 4rem;
+    font-family:Geneva, Tahoma, sans-serif;
+    color:black;
+    text-align: left;
+}
+.log{
+
+    border:black solid 2px;
+    width:30rem;
+    height:17rem;
+    margin-top: 6rem;
+    box-shadow: 0 0 10px 5px rgb(250, 248, 248) ;
+    background: black;
+    color:white;
+    
+}
+.log form input{
+
+    margin:1em;
+    height:3em;
+    width:17em;
+    border-radius: 2em;
+    border:black solid 1px;
+    padding-left: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.log form button{
+
+    padding:1em;
+    cursor: pointer;
+    background-color: rgb(255, 238, 3);
+    box-shadow:  0 0 10px inset rgb(255, 252, 52);
+    color:black;
+    border:solid black 1px;
+    border-radius: 2em;
+
+}
+.log form button:hover{
+
+    color:black;
+    background-color: white;
+}
+#resend{
+    color:white;
+    background: transparent;
+}
+.header{
+
+    height:5.5rem;
+    position: relative;
+    position: sticky;
+    top:0;
+    padding: 0.5em;
+    background-color: rgb(236, 222, 26);
+    color:black;
+    box-shadow: 0 0 5px 3px rgb(92, 91, 91);
+    z-index: 1;
+    margin: 0;
+}
+.header h1{
+    text-align: left;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 7rem;
+    margin-bottom: 2em;
+    font-size:2.4em;
+    color: black;
+        
+}
+
+.header img{
+
+    position: absolute;
+    width:15.2em;
+    height:15.2em;
+    left:-3.3em;
+    top:-3.3em;
+   
+}
+.bottom
+{
+    width:100%;
+    background: black;
+    position: relative;
+    height:10rem;
+    margin: 0;
+    color:white;
+}
+.bottom h2,h3{
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.icons{
+    padding: 1rem;
+}
+.icons i{
+
+    font-size: 2rem;
+    margin-left: 1rem;
+    color:yellow
+}
+.search{
+
+    position: absolute;
+    right:3rem;
+    top:2.5rem;
+}
+.search form input{
+
+    border-radius: 30px;
+    border:none;
+    height:2.4rem;
+    width:13rem;
+    padding-left: 2rem;
+
+}
+.search form button{
+
+    border-radius: 50%;
+    height:2.1rem;
+    width:2.1rem;
+    border: none;
+    cursor: pointer;
+    margin-left: 6px;
+}
+.navBar{
+
+    width:100%;
+    height:4rem;
+    margin: 0;
+    position: relative;
+    color: white;
+    background-color:black; 
+    padding-top: 0.5rem;
+     
+}
+.navBar  a{
+
+    text-decoration: none;
+    color: white;
+}
+.navBar ul{
+    list-style: none;
+    float: right;
+}
+.navBar ul li{
+
+    display: inline;
+    margin-right: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    padding: 0.7rem 0.9rem 0.7rem 0.9rem;
+}
+.navBar ul li:hover{
+
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+.icon{
+
+    background: black;
+    border-radius: 50%;
+    width:50px;
+    height:50px;
+    margin-right: 2rem;
+    cursor: pointer;
+    float: right;
+    
+}
+.movRow{
+   
+    width:100%;
+    height:27rem;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    overflow: hidden;
+}
+.movRow1{
+   
+    width:100%;
+    height:fit-content;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    
+}
+.movRow button{
+    border: none;
+    background: transparent;
+    text-align: left;
+}
+.movRow1 button{
+    border: none;
+    background: transparent;
+    text-align: left;
+}
+
+.movieBox{
+
+    float: left;
+    height:25rem;
+    width:15rem;
+    margin-left: 2rem;
+    margin-bottom: 5rem;
+    cursor:pointer;
+    
+}
+.movieBox1{
+
+    float: left;
+    height:29rem;
+    width:14rem;
+    margin-left: 2rem; 
+    cursor:pointer;
+    
+}
+.movieBox a{
+    text-decoration: none;
+}
+.movieBox h4{
+    font-family: Arial, Helvetica, sans-serif;
+    transform: translateY(-17px);
+    font-size: 1.3rem;
+    margin-left: 1rem;
+    text-align: left;
+}
+.movieBox p{
+    font-family: Arial, Helvetica, sans-serif;
+     transform: translateY(-36px);
+     margin-left: 1rem;
+     text-align: left;
+}
+.movieBox1 h4{
+    font-family: Arial, Helvetica, sans-serif;
+    transform: translateY(-17px);
+    font-size: 1.3rem;
+    margin-left: 1rem;
+}
+.movieBox1 p{
+    font-family: Arial, Helvetica, sans-serif;
+     transform: translateY(-36px);
+     margin-left: 1rem;
+}
+.movie{
+    border-radius:10px;
+    height:23rem;
+    width:14rem;
+    cursor:pointer;
+    float:left;
+    overflow: hidden;
+}
+.movie i{
+    color: rgb(255, 0, 76);
+    margin-right: 4px;
+}
+.movieBox:hover .movie{
+    
+    box-shadow: 0 0 10px 5px rgb(92, 92, 92);
+    
+}
+.movieBox1:hover .movie{
+    
+    box-shadow: 0 0 10px 5px rgb(92, 92, 92);
+    
+}
+.movie img{
+    width:100%;
+    height:90%;
+    margin: 0;
+}
+
+.submov{
+    width:100%;
+    height:10%;
+    padding: 0.5rem;
+    background: black;
+    color:white;
+    margin: 0;
+    transform: translateY(-5px);
+}
+.submov p{
+
+    margin-left: -2px;
+    display: inline;
+}
+.submov span{
+    margin-left: 3px;
+    margin-top: 5px;
+    color:rgb(255, 0, 76);
+    padding:0.5rem;
+
+}
+
+.movdet
+{
+    width:100%;
+    height:80vh;
+    margin: 0;
+    position: relative;
+    border: solid black 1px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#dot{
+    color:white;
+    font-size: 0.5em;
+    transform: translateY(-0.2em);
+    margin-left: 0.5em;
+    margin-right:0.5rem;
+}
+.background
+{
+    width:100%;
+    height:100%;
+    background: linear-gradient(to right,black,rgb(46, 46, 46),transparent);
+    z-index: -1;
+}
+.movie1{
+    position: absolute;
+    left:3rem;
+    top:3rem;
+    border-radius:10px;
+    height:23rem;
+    width:15rem;
+    
+    float:left;
+    overflow: hidden;
+}
+.movie1 img{
+    width:100%;
+    height:100%;
+    margin: 0;
+}
+.searchmsg{
+    width:100%;
+    height:100vh;
+}
+.searchmsg img {
+
+    width:33rem;
+    height:25rem;
+    
+}
+.searchmsg h2{
+
+    font-family: Arial, Helvetica, sans-serif;
+    transform:translateX(-3rem);
+}
+.desc{
+    position: absolute;
+    padding-left: 2rem;
+    top:3rem;
+    left:19rem;
+    text-align: left;
+}
+.desc i{
+    color: rgb(0, 255, 13);
+    margin-right: 5px;
+}
+.desc h2{
+
+    color: white;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.desc p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:3rem;
+}
+.desc button{
+    width:12rem;
+    height:2.8rem;
+    background-color: rgb(255, 238, 3);
+    color: black;
+    cursor: pointer;
+    border:none;
+    border-radius:10px;
+    margin-top: 2rem;
+    font-weight: bold;
+
+}
+.desc button:hover{
+
+    background-color:rgb(199, 188, 34);  
+    color: black;
+}
+
+.desc span{
+    display: inline;
+    background-color: white;
+    color: black;
+    margin-right: 0.5rem;
+    margin-top: 1.5rem;
+    padding: 3px;
+    border-radius:5px;
+   
+}
+.movdet2{
+    width:100%;
+    margin: 0;
+}
+.about{
+    margin: 0;
+    width:100%;
+    padding-top: 1rem;
+}
+.about p{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    margin-left: 6rem;
+}
+.about h2{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2em;
+    width:100%;
+}
+.castrow{
+    width:100%;
+    height:14rem;
+    margin-top: 1rem;
+}
+.castrow h2{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 3rem;
+    width:100%;
+}
+.castImg {
+    width:9rem;
+    height:9rem;   
+    float: left;
+    margin-left: 3rem;
+}
+.castImg img{
+
+    width:6.5rem;
+    height:6.5rem;
+    display: inline;
+    border-radius: 50%;
+    margin-left: 1.5rem;
+}
+.castImg p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0.3rem;
+    width:10rem;
+}
+.review{
+
+    width:100%;
+    padding:2rem;
+    border-radius: solid 1px black;
+}
+.movieBar{
+
+    width:100%;
+    height:6rem;
+    border: solid 1px black;
+    color: white;
+    background-color: rgb(8, 8, 0);
+    text-align: left;
+    padding-bottom: 1em;
+}
+.movieBar h2{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    margin-left: 3rem;
+    width:13em;
+}
+.movieBar span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    margin-left: 3rem;
+    border:hsl(0, 0%, 100%) 2px solid;
+    border-radius: 12px;
+    padding-left:0.7em;
+    padding-top:0.3em;
+    padding-right: 0.7em;
+    padding-bottom: 0.3em;
+    transform: translateY(-0.9em);
+       
+}
+.movieBar i{
+    margin-right: 4px;
+}
+.castbar{
+
+    height: 100%;
+    float: right;
+    position: relative;
+    
+    margin-right: 4rem;
+    transform: translateY(-4rem);
+}
+.castbox{
+
+    float: left;
+    width:4rem;
+    height:4rem;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+}
+.castbox img{
+    border-radius: 50%;
+    width:3rem;
+    height:3rem;
+    
+}
+.castbox p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    transform: translateY(-4px);
+}
+.dateBar{
+
+    width:100%;
+    height:4rem;
+    border:solid black 1px;
+    display: flex;
+    align-items: flex-start;
+    background-color: rgb(27, 29, 1);
+}
+.dateBar-sub{
+    margin-left: 3rem;
+    width:auto;
+    height:auto;
+   
+}
+.date{
+    width:3rem;
+    height:2.5rem;
+    padding: 0;
+    border-radius: 1px;
+    border: none;
+    background: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    color:white;
+}
+.date p{
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+    transform: translateY(-1rem);
+}
+#datechosen{
+    background-color: rgb(231, 22, 22);
+    color:white;
+    box-shadow:rgb(105, 1, 1) 0 0 5px inset ;
+
+}
+.theatreGrid{
+
+    width:100%;
+
+}
+.theatreRow{
+
+    width:100%;
+    display: flex;
+
+}
+.theatreRow h4{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 3rem;
+    width:16rem;
+    
+}
+.theatreRow a{
+
+    text-decoration: none;
+    margin-top: 2rem;
+}
+.theatreRow button{
+
+    border:solid 1.5px rgb(54, 54, 54);
+    color: rgb(51, 255, 0);
+    margin-left: 2rem;
+    height:3rem;
+    width:6rem;
+    padding:15px 15px 15px 15px;
+    border-radius: 5px;
+    margin-top: 1rem;
+    cursor:pointer;
+    background: transparent;
+    font-weight: bold;
+    transform: translateY(-2em);
+}
+.Seats
+{
+    width:100%;
+}
+.seatrow {
+    
+    display: flex;
+    margin-top: 1rem;
+}
+.seatrow button{
+
+    background: rgb(158, 156, 156);
+    border:none;
+    margin-left: 1rem;
+    padding:0.4rem;
+    cursor: pointer;
+    border-radius: 2px;
+    width:1.7rem;
+    color: white;
+}
+.seattype{
+
+    transform: translateX(-7rem) translateY(-2rem);
+    position: absolute;
+}
+.rowid{
+    float:left;
+    transform: translateX(-1rem);
+    
+    width:1em;
+}
+.rowidr{
+    float:right;
+    width:1em;
+    transform: translateY(-1.6rem) translateX(2rem);
+
+}
+.legend {
+
+    right:2rem;
+    margin-right: 2rem;
+    transform: translateY(-4em);
+    position: absolute;
+    color: white;
+
+}
+.legend button{
+    background: rgb(158, 156, 156);
+    border:none;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding:0.4rem;
+    cursor: pointer;
+    border-radius: 2px;
+    width:2.1rem;
+    color: white;
+    
+}
+.legend button:hover{
+    background-color: gray;
+}
+#sold{
+
+    background-color: red;
+    color: white;
+}
+.sold{
+    background-color: red;
+    color: white;
+}
+.selected{
+        background-color: rgb(5, 216, 5);
+        color: white;
+}
+#selected{
+    background-color: rgb(5, 216, 5);
+    color: white;
+}
+.book{
+    background-color: rgb(255, 238, 3);
+    color: black;
+    width:8rem;
+    border:none;
+    border-radius:10px;
+    padding:0.7rem;
+    cursor: pointer;
+    float: right;
+    transform: translateY(-1.4rem);
+    margin-right: 38rem;
+
+}
+.book:hover{
+
+    background-color: rgb(247, 235, 70);
+}
+.left{
+
+    float:left;
+    padding: 2rem;
+   
+    margin-left:7.5em;
+    position: relative;
+    
+}
+.right{
+
+    float:left;
+    padding: 2rem;
+    
+    margin-left: 4rem;
+    position: relative;
+}
+.summary{
+
+    background: rgb(12, 12, 12);
+    border:solid rgb(0, 5, 27) 1px;
+    width:21rem;
+    height:77.5vh;
+    float:right;
+    padding-bottom: 2rem;
+    color: white;
+}
+.summary h4{
+
+    color:yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 2rem;
+    font-size: 1.2rem;
+}
+.summary p{
+
+    padding-left: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.summary span{
+    display: inline;
+}
+.summary button{
+
+    background-color: rgb(252, 6, 6);
+    border-radius: 5px;
+    color: white;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    width:15rem;
+    height:2.3rem;
+    border: none;
+    cursor:pointer;
+
+}
+.summary button:hover{
+
+    background-color:rgb(253, 55, 55);
+}
+.moviePoster{
+
+    
+    width:22rem;
+    height:29rem;
+    overflow: hidden;
+    border-radius: 10px;
+    float: left;
+    margin-left: 20rem;
+    margin-top: 2rem;
+    position: relative;
+
+}
+.moviePoster img{
+
+    width:100%;
+    height:100%;
+    
+}
+.moviePoster-sub{
+
+    width:100%;
+    height:100%;
+    background: linear-gradient(to top,black,transparent);
+    position: absolute;
+    top:0;
+    left: 0;
+   
+}
+.movpos-sub{
+    width:100%;
+    position: absolute;
+    bottom: 0;
+}
+.movpos-sub h3{
+
+    color:white;
+    padding-left: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.movpos-sub p{
+
+    color:white;
+    padding-left: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.payment{
+
+    width:25rem;
+    height:24rem;
+    background-color: black;
+    box-shadow: 0 0 10px 2px rgb(250, 248, 248) ;
+    border:solid black 1px;
+    float: left;
+    margin-left: 18rem;
+    margin-top: 1rem;
+}
+.payment h2{
+
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 3rem;
+    color: white;
+}
+.payment p{
+    color:white;
+}
+#small{
+    width:2.5rem;
+
+}
+.payment form input{
+
+    width:15rem;
+    height: 2rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    border-radius:5px;
+    border: none;
+    padding-left: 1rem;
+}
+.payment form button{
+
+    background-color: rgb(72, 143, 5);
+    color: white;
+    border:none;
+    margin-left: 2.5rem;
+    margin-top: 2rem;
+    height:2.3rem;
+    width:10rem;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.payment form button:hover{
+
+    background-color: rgb(95, 192, 5);
+}
+.payment1{
+
+    border:solid black 1px;
+    background:black;
+    width:25rem;
+    height:17rem;
+    transform: translateX(110%);
+    margin-top:5rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px rgb(250, 248, 248) ;
+}
+.payment1 h2{
+
+    color:white;
+}
+.payment1 p{
+    color: white;
+}
+.payment1 
+.payment1 form{
+     align-items: center;
+}
+.payment1 form input{
+    width:7rem;
+    height: 2rem;
+    margin-top: 1rem;
+    
+    padding-left: 3rem;
+    border-radius: 3px;
+    border: none;
+    text-align:left;
+   
+
+}
+.payment1 button{
+    background-color: rgb(72, 143, 5);
+    color: white;
+    border:none;
+    margin-top: 2rem;
+    height:2.3rem;
+    width:8rem;
+    border-radius: 5px;
+    cursor: pointer;
+    
+
+}
+.payment1 button:hover{
+
+    background-color: rgb(102, 204, 7);
+    
+}
+#resend1{
+
+    color:white;
+    background: transparent;
+    margin-top:1rem;
+    
+    width:5.7rem;
+    height:1.5rem;
+    
+}
+.mntf h1{
+    text-align: center;
+}
+.mntf img{
+    width:100%;
+    height:30rem;
+}
+.ticket{
+
+    border:dotted black 2px;
+    width:46rem;
+    height:18rem;
+    background-color: rgb(231, 243, 59);
+    box-shadow: 0 0 20px inset rgb(75, 83, 1);
+    position: relative;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+
+}
+.ticket-img{
+
+    height:100%;
+    width:20rem;
+    float: left;
+    
+
+}
+.ticket-img img{
+
+    width:15rem;
+    height:15rem;
+    margin-left:1.5rem;
+    margin-top: 1.5rem;
+    border-radius: 10px;
+
+}
+.ticket h2{
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+.ticket p{
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+#water{
+
+    width:18rem;
+    height:18rem;
+    opacity: 0.4;
+    position: absolute;
+    right: 2rem;
+    top:1rem;
+    z-index: 0;
+}
+.dot1{
+
+    width:2.4rem;
+    height:2.4rem;
+    border-radius: 50%;
+    position: absolute;
+    background-color: white;
+    left:-1rem;
+    top:-1rem;
+}
+.dot2{
+
+    width:2.4rem;
+    height:2.4rem;
+    border-radius: 50%;
+    position: absolute;
+    background-color: white;
+    right:-1rem;
+    top:-1rem;
+}
+.dot3{
+
+    width:2.4rem;
+    height:2.4rem;
+    border-radius: 50%;
+    position: absolute;
+    background-color: white;
+    left:-1rem;
+    top:7.6rem;
+}
+.dot4{
+
+    width:2.4rem;
+    height:2.4rem;
+    border-radius: 50%;
+    position: absolute;
+    background-color: white;
+    right:-1rem;
+    top:7.6rem;
+}
+.dot5{
+
+    width:2.4rem;
+    height:2.4rem;
+    border-radius: 50%;
+    position: absolute;
+    background-color: white;
+    left:-1rem;
+    bottom:-1rem;
+}
+.dot6{
+
+    width:2.4rem;
+    height:2.4rem;
+    border-radius: 50%;
+    position: absolute;
+    background-color: white;
+    right:-1rem;
+    bottom:-1rem;
+}
+.success{
+    color:rgb(212, 4, 4);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#booked{
+
+    position: absolute;
+    width:10rem;
+    height:10rem;
+    left:-0.4rem;
+    bottom:-0.3rem;
+    z-index: 1;
+}
+

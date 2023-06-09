@@ -1,0 +1,130 @@
+{
+    "obj1":{
+        "moviename":"Spiderman No way home",
+        "cast":[
+            {
+            "name":"Tom holland",
+            "role":"Peter Parker"
+            },
+            {
+            "name":"Andrew Garfield",
+            "role":"Peter Parker"
+            },
+            {
+            "name":"Tobey Maguire",
+            "role":"Peter Parker"
+            },
+            {
+            "name":"Benedict Kumberbatch",
+            "role":"Dr.Strange"
+            }
+        ]
+    },
+    "obj2":{
+        "movianame":"Valimai",
+        "cast":[
+            {
+            "name":"Ajith Kumar",
+            "role":"Arjun"
+            },
+            {
+            "name":"Karthikeya",
+            "role":"unknown"
+            },
+            {
+            "name":"Huma Qureshi",
+            "role":"unknown"
+            },
+            {
+            "name":"Gurbani Judge",
+            "role":"unknown"
+            }
+        ]
+    } ,
+    "obj3":{
+        "moviename":"RRR",
+        "cast":[
+            {
+            "name":"Ram Charan",
+            "role":"Alluri Sitarama"
+            },
+            {
+            "name":"Jr.NTR",
+            "role":"Komaram Bheem"
+            },
+            {
+            "name":"Alia Bhatt",
+            "role":"Sita"
+            },
+            {
+            "name":"Ajay Devgan",
+            "role":"Villan"
+            }
+        ] 
+    },
+    "obj4":{
+        "moviename":"Matrix 4",
+        "cast":[
+            {
+            "name":"Keanu Reeves",
+            "role":"Neo"
+            },
+            {
+            "name":"Laurence",
+            "role":"Morpheus"
+            },
+            {
+            "name":"Jessica Henwik",
+            "role":"Bugs"
+            },
+            {
+            "name":"Priyanka chopra",
+            "role":"Sati"
+            }
+        ]
+    } ,
+    "obj5":{
+        "moviename":"83",
+        "cast":[
+            {
+            "name":"Ranveer Singh",
+            "role":"Kapil Dev"
+            },
+            {
+            "name":"Jiiva",
+            "role":"Sreekanth"
+            },
+            {
+            "name":"Deepika padukone",
+            "role":"Romi Dev"
+            },
+            {
+            "name":"Tahir Bhasin",
+            "role":"Sunil Gavaskar"
+            }
+        ]
+    },
+    "obj6":{
+        "moviename":"Pushpa",
+        "cast":[
+            {
+            "name":"Allu Arjun",
+            "role":"Pushpa"
+            },
+            {
+            "name":"Rashmika Mandanna",
+            "role":"Srivalli"
+            },
+            {
+            "name":"Ajay Ghosh",
+            "role":"Konda Reddy"
+            },
+            {
+            "name":"Fahad Fazil",
+            "role":"Inspector"
+            }
+        ]
+    }  
+
+}
+
